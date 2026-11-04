@@ -40,9 +40,11 @@
       "note": "Debian's signed Trixie Security InRelease authenticates the Sources.xz index containing the descriptor and archive hashes. The descriptor uploader signature was not separately verified."
     }
   },
-  "supportedSourceVersions": ["8:7.1.1.43+dfsg1-1+deb13u13"],
-  "packageVersion": "8:7.1.1.43+dfsg1-1+deb13u13+getpatched1",
-  "releaseSerial": 1,
+  "supportedSourceVersions": [
+    "8:7.1.1.43+dfsg1-1+deb13u13"
+  ],
+  "packageVersion": "8:7.1.1.43+dfsg1-1+deb13u13+getpatched2",
+  "releaseSerial": 2,
   "changelog": {
     "distribution": "trixie",
     "urgency": "low",
@@ -54,15 +56,24 @@
     "libmagickcore-7.q16-10",
     "libmagickwand-7.q16-10"
   ],
-  "advisoryPackages": ["libmagickcore-7.q16-10"],
-  "patches": ["cve-2026-119124-trixie"],
+  "advisoryPackages": [
+    "libmagickcore-7.q16-10",
+    "libmagickwand-7.q16-10"
+  ],
+  "patches": [
+    "cve-2026-119124-trixie",
+    "cve-2026-116159-trixie"
+  ],
   "releaseAccess": {
     "policy": "public-after-checks",
     "sponsorDelayHours": 0,
     "sponsorEligibility": null,
     "earlyBinaryLicenseId": null,
     "publicContributionSpdx": "MIT",
-    "earlyUse": ["private", "commercial"],
+    "earlyUse": [
+      "private",
+      "commercial"
+    ],
     "earlyRedistributionAllowed": false,
     "publicLicenseScope": "getpatched-authored-contributions-only"
   },
