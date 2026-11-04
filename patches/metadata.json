@@ -100,7 +100,7 @@
               "purpose": "One-pixel PPM input for repeatable command-line and mogrify CDL tests."
             }
           ],
-          "baselineExpectation": "On exact installed Debian Trixie baseline packages, Valgrind reports definite lost FileToString allocations in both CLISimpleOperatorImage (-cdl) and MogrifyImage (-cdl) paths.",
+          "baselineExpectation": "On exact installed Debian Trixie baseline packages, Valgrind reports definite lost FileToString allocations through CLIOption (-cdl) and MogrifyImage (-cdl) paths.",
           "patchedExpectation": "The same CLI and mogrify commands complete and produce valid output with zero definite lost blocks and zero Memcheck errors."
         }
       ]
