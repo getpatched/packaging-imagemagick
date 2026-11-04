@@ -5,43 +5,43 @@
     "distribution": "Debian",
     "release": "13",
     "codename": "trixie",
-    "sourcePocket": "release",
+    "sourcePocket": "security",
     "architecture": "amd64"
   },
   "source": {
     "format": "3.0 (quilt)",
-    "version": "8:7.1.1.43+dfsg1-1+deb13u12",
+    "version": "8:7.1.1.43+dfsg1-1+deb13u13",
     "publication": "https://packages.debian.org/source/trixie/imagemagick",
-    "publishedAt": "2026-09-04T11:32:05Z",
+    "publishedAt": "2026-10-23T19:46:42Z",
     "descriptor": {
-      "name": "imagemagick_7.1.1.43+dfsg1-1+deb13u12.dsc",
-      "url": "https://snapshot.debian.org/archive/debian/20261030T000000Z/pool/main/i/imagemagick/imagemagick_7.1.1.43+dfsg1-1+deb13u12.dsc",
-      "sha256": "d82041b1f5888ca181eeb4316981c31ae9d9c54060f1f4ec10a2d23dd80c8aeb",
-      "bytes": 5263
+      "name": "imagemagick_7.1.1.43+dfsg1-1+deb13u13.dsc",
+      "url": "https://snapshot.debian.org/archive/debian-security/20261030T000000Z/pool/updates/main/i/imagemagick/imagemagick_7.1.1.43+dfsg1-1+deb13u13.dsc",
+      "sha256": "bbd83d09b7e11a0c13b0334bb6703abf86359243d5283a0b0edbbe47e187ebca",
+      "bytes": 5165
     },
     "files": [
       {
         "name": "imagemagick_7.1.1.43+dfsg1.orig.tar.xz",
         "role": "upstream-source",
-        "url": "https://snapshot.debian.org/archive/debian/20261030T000000Z/pool/main/i/imagemagick/imagemagick_7.1.1.43+dfsg1.orig.tar.xz",
+        "url": "https://snapshot.debian.org/archive/debian-security/20261030T000000Z/pool/updates/main/i/imagemagick/imagemagick_7.1.1.43+dfsg1.orig.tar.xz",
         "sha256": "bcb4f3c78a930a608fa4889f889edbcb384974246ad9407fce1858f2c0607bfe",
         "bytes": 10501740
       },
       {
-        "name": "imagemagick_7.1.1.43+dfsg1-1+deb13u12.debian.tar.xz",
+        "name": "imagemagick_7.1.1.43+dfsg1-1+deb13u13.debian.tar.xz",
         "role": "debian-packaging",
-        "url": "https://snapshot.debian.org/archive/debian/20261030T000000Z/pool/main/i/imagemagick/imagemagick_7.1.1.43+dfsg1-1+deb13u12.debian.tar.xz",
-        "sha256": "4ab5e32a172da4a244afa140570d1c48fd48d5c7a64dfce6704917f30081c9f3",
-        "bytes": 366728
+        "url": "https://snapshot.debian.org/archive/debian-security/20261030T000000Z/pool/updates/main/i/imagemagick/imagemagick_7.1.1.43+dfsg1-1+deb13u13.debian.tar.xz",
+        "sha256": "4a1dfe533644f2c567ba474af9e78fca20e6d84535aafce42fe1ff6a03d593db",
+        "bytes": 403292
       }
     ],
     "signatureVerification": {
       "verified": false,
-      "note": "The descriptor and archives are pinned to Debian's immutable Trixie snapshot, and archive hashes match the checksums listed in the .dsc. The .dsc uploader signature was not separately verified."
+      "note": "Debian's signed Trixie Security InRelease authenticates the Sources.xz index containing the descriptor and archive hashes. The descriptor uploader signature was not separately verified."
     }
   },
-  "supportedSourceVersions": ["8:7.1.1.43+dfsg1-1+deb13u12"],
-  "packageVersion": "8:7.1.1.43+dfsg1-1+deb13u12+getpatched1",
+  "supportedSourceVersions": ["8:7.1.1.43+dfsg1-1+deb13u13"],
+  "packageVersion": "8:7.1.1.43+dfsg1-1+deb13u13+getpatched1",
   "releaseSerial": 1,
   "changelog": {
     "distribution": "trixie",

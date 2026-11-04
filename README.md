@@ -1,14 +1,14 @@
 # GetPatched ImageMagick recipe
 
-This public repository is a development candidate for Debian 13 Trixie amd64. It pins the exact ImageMagick source from Debian's 2026-10-30 snapshot and carries the upstream fix for CVE-2026-119124.
+This public repository is a development candidate for Debian 13 Trixie amd64. It pins the exact ImageMagick source from Debian's 2026-10-30 security snapshot and carries the upstream fix for CVE-2026-119124.
 
 ## Candidate scope
 
 | Target | Exact source | CVE | Status |
 |---|---|---|---|
-| Debian Trixie amd64 | `8:7.1.1.43+dfsg1-1+deb13u12` | CVE-2026-119124 | Unverified development candidate; paired package build, regression and scan pending |
+| Debian Trixie amd64 | `8:7.1.1.43+dfsg1-1+deb13u13` | CVE-2026-119124 | Unverified development candidate; paired package build, regression and scan pending |
 
-The Debian Security tracker marks Trixie's `u12` source vulnerable and Bookworm unaffected; no other distro, release, or architecture is claimed. The target descriptor records the immutable snapshot URLs, exact archive hashes, and the checksums listed in the source descriptor. The `.dsc` uploader signature has not been separately verified.
+The Debian Security tracker marks Trixie's security `u13` source vulnerable and Bookworm unaffected; no other distro, release, or architecture is claimed. The target descriptor records the immutable snapshot URLs, exact archive hashes, and the checksums listed in the source descriptor. The signed Debian Security index authenticates the `.dsc` hash; its uploader signature has not been separately verified.
 
 ## Patch and regression
 
