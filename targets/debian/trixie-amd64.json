@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 2,
+  "id": "debian-trixie-amd64",
+  "base": {
+    "distribution": "Debian",
+    "release": "13",
+    "codename": "trixie",
+    "sourcePocket": "release",
+    "architecture": "amd64"
+  },
+  "source": {
+    "format": "3.0 (quilt)",
+    "version": "8:7.1.1.43+dfsg1-1+deb13u12",
+    "publication": "https://packages.debian.org/source/trixie/imagemagick",
+    "publishedAt": "2026-09-04T11:32:05Z",
+    "descriptor": {
+      "name": "imagemagick_7.1.1.43+dfsg1-1+deb13u12.dsc",
+      "url": "https://snapshot.debian.org/archive/debian/20261030T000000Z/pool/main/i/imagemagick/imagemagick_7.1.1.43+dfsg1-1+deb13u12.dsc",
+      "sha256": "d82041b1f5888ca181eeb4316981c31ae9d9c54060f1f4ec10a2d23dd80c8aeb",
+      "bytes": 5263
+    },
+    "files": [
+      {
+        "name": "imagemagick_7.1.1.43+dfsg1.orig.tar.xz",
+        "role": "upstream-source",
+        "url": "https://snapshot.debian.org/archive/debian/20261030T000000Z/pool/main/i/imagemagick/imagemagick_7.1.1.43+dfsg1.orig.tar.xz",
+        "sha256": "bcb4f3c78a930a608fa4889f889edbcb384974246ad9407fce1858f2c0607bfe",
+        "bytes": 10501740
+      },
+      {
+        "name": "imagemagick_7.1.1.43+dfsg1-1+deb13u12.debian.tar.xz",
+        "role": "debian-packaging",
+        "url": "https://snapshot.debian.org/archive/debian/20261030T000000Z/pool/main/i/imagemagick/imagemagick_7.1.1.43+dfsg1-1+deb13u12.debian.tar.xz",
+        "sha256": "4ab5e32a172da4a244afa140570d1c48fd48d5c7a64dfce6704917f30081c9f3",
+        "bytes": 366728
+      }
+    ],
+    "signatureVerification": {
+      "verified": false,
+      "note": "The descriptor and archives are pinned to Debian's immutable Trixie snapshot, and archive hashes match the checksums listed in the .dsc. The .dsc uploader signature was not separately verified."
+    }
+  },
+  "supportedSourceVersions": ["8:7.1.1.43+dfsg1-1+deb13u12"],
+  "packageVersion": "8:7.1.1.43+dfsg1-1+deb13u12+getpatched1",
+  "releaseSerial": 1,
+  "changelog": {
+    "distribution": "trixie",
+    "urgency": "low",
+    "maintainer": "GetPatched Maintainers <packages@getpatched.dev>",
+    "date": "Wed, 04 Nov 2026 00:00:00 +0000"
+  },
+  "binaryPackages": [
+    "imagemagick-7.q16",
+    "libmagickcore-7.q16-10",
+    "libmagickwand-7.q16-10"
+  ],
+  "advisoryPackages": ["libmagickcore-7.q16-10"],
+  "patches": ["cve-2026-119124-trixie"],
+  "releaseAccess": {
+    "policy": "public-after-checks",
+    "sponsorDelayHours": 0,
+    "sponsorEligibility": null,
+    "earlyBinaryLicenseId": null,
+    "publicContributionSpdx": "MIT",
+    "earlyUse": ["private", "commercial"],
+    "earlyRedistributionAllowed": false,
+    "publicLicenseScope": "getpatched-authored-contributions-only"
+  },
+  "status": "unreleased-development-candidate"
+}
