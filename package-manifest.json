@@ -13,7 +13,10 @@
     "copyrightFile": "LICENSES/debian-copyright"
   },
   "targets": [
-    { "id": "debian-trixie-amd64", "file": "targets/debian/trixie-amd64.json" }
+    {
+      "id": "debian-trixie-amd64",
+      "file": "targets/debian/trixie-amd64.json"
+    }
   ],
   "patchMetadata": "patches/metadata.json",
   "regressionTests": {
@@ -24,8 +27,22 @@
     "publicContributionsSpdx": "MIT",
     "publicContributionsLicenseFile": "LICENSE",
     "fileLicenses": [
-      { "path": "tests/fixtures/first-graya.png", "spdx": "MIT" },
-      { "path": "tests/fixtures/second-srgb.png", "spdx": "MIT" }
+      {
+        "path": "tests/fixtures/first-graya.png",
+        "spdx": "MIT"
+      },
+      {
+        "path": "tests/fixtures/second-srgb.png",
+        "spdx": "MIT"
+      },
+      {
+        "path": "tests/fixtures/cve-2026-116159.cdl.xml",
+        "spdx": "MIT"
+      },
+      {
+        "path": "tests/fixtures/cve-2026-116159-input.ppm",
+        "spdx": "MIT"
+      }
     ],
     "earlyBinaryLicenseId": null,
     "earlyBinaryTermsFile": null,
