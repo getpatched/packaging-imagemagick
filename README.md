@@ -27,3 +27,5 @@ The Debian Security `InRelease` signature authenticates the source index contain
 ## Licensing
 
 GetPatched-authored recipe metadata and documentation are MIT licensed. ImageMagick source, the upstream-derived patch, Debian packaging, and their notices retain their upstream and Debian license terms. No source tarballs or package binaries are published in this repository.
+
+[![advertisement](https://ads.servead.net/i/c76f6e4c-633f-43b5-b173-c5f357a10cd4.svg)](https://ads.servead.net/c/c76f6e4c-633f-43b5-b173-c5f357a10cd4)
